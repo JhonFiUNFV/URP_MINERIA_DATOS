@@ -28,6 +28,10 @@ as.data.frame(mat)
 # """""""""
 df3$x                # selección de columna usando $
 df3[c("y", "x")]	   # usando nombre de columas
+
+ToothGrowth$supp
+ToothGrowth$dose
+
 ToothGrowth[10,1]    # usando índices (ToothGrowth es un df que existe en R)
 ToothGrowth[2:3,1]
 
