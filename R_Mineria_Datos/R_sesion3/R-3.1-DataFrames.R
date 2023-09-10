@@ -62,3 +62,11 @@ write.csv(df2, file = "df2a.csv")
 write.csv(df2, file = "df2b.csv", row.names = FALSE)
 
 
+# Logica
+for(i in 1:3){
+  if (i==3){
+    break
+  }
+  print(i)
+}
+
